@@ -1,0 +1,12 @@
+news.ycombinator.com##body:style(background-color: #000000)
+news.ycombinator.com##a:link:style(color: #ddd !important)
+news.ycombinator.com##a:visited:style(color: #888 !important)
+news.ycombinator.com##table#hnmain:style(background-color: #333 !important)
+news.ycombinator.com##table#hnmain td:style(background-color: #333 !important)
+news.ycombinator.com##td.title:style(font-size:1em !important)
+news.ycombinator.com##tr.spacer:style(height: 0.5em !important)
+news.ycombinator.com##span.commtext:style(color: #ccc !important)
+
+bloomberg.com##+js(cookie-remover, gatehouse_id, stay)
+bloomberg.com##+js(aopr, localStorage)
+bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)
