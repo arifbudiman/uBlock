@@ -18,3 +18,9 @@ forecast.weather.gov##div.panel-heading:style(background-image: none !important;
 forecast.weather.gov##div.panel-body:style(background-color: #333 !important)
 forecast.weather.gov##div.row-odd:style(background-color: #333 !important)
 forecast.weather.gov##div.row-even:style(background-color: #444 !important)
+
+www.wunderground.com##body, .mat-drawer-container, .inner-wrap, .region-content-top, section:style(background-color:#000 !important; color: #ddd !important)
+www.wunderground.com##.dashboard__header, .module__container:style(background-color:#111 !important; color: #ddd !important)
+www.wunderground.com##.module__header:style(background-color:#222 !important; color: #ddd !important)
+www.wunderground.com##.module__body:style(background-color:#333 !important; color: #ddd !important)
+www.wunderground.com##lib-history:style(display: none !important)
