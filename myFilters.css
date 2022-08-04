@@ -19,6 +19,7 @@ forecast.weather.gov##div.panel-body:style(background-color: #333 !important)
 forecast.weather.gov##div.row-odd:style(background-color: #333 !important)
 forecast.weather.gov##div.row-even:style(background-color: #444 !important)
 forecast.weather.gov###current-conditions:style(margin-top: 10px !important)
+forecast.weather.gov##.forecast-tombstone.current-hazard-watch:style(background-color: #666 !important)
 
 www.wunderground.com##body, .mat-drawer-container, .inner-wrap, .region-content-top, section:style(background-color:#000 !important; color: #ddd !important)
 www.wunderground.com##.dashboard__header, .module__container:style(background-color:#000 !important; color: #ddd !important)
