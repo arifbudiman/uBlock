@@ -1,14 +1,22 @@
-news.ycombinator.com##body:style(background-color: #000)
-news.ycombinator.com##a:link:style(color: #ddd !important)
-news.ycombinator.com##a:visited:style(color: #888 !important)
-news.ycombinator.com##table#hnmain, table#hnmain td:style(background-color: #333 !important)
-news.ycombinator.com##td.title:style(font-size:1em !important)
-news.ycombinator.com##tr.spacer:style(height: 0.5em !important)
-news.ycombinator.com##span.commtext:style(color: #ccc !important)
+news.ycombinator.com##body, table#hnmain, table#hnmain td:style(background-color: #202124 !important)
+news.ycombinator.com##a:link:style(color: #8ab4f8 !important)
+news.ycombinator.com##a:visited:style(color: #c58af9 !important)
+news.ycombinator.com##td.title:style(font-size:20px !important; line-height:26px !important; font-family: Roboto,arial,sans-serif !important)
+news.ycombinator.com##.toptext, .pagetop, .c00, span.subline:style(font-size:14px !important; color:#bdc1c6 !important)
+
+wikipedia.org##body,.mw-page-container, .wikitable, .wikitable, .infobox, th:style(background-color: #202124 !important; color:#bdc1c6 !important)
+wikipedia.org##h1, h2, h3, h4, h5, h6, .mw-footer li, .cdx-button:style(color:#bdc1c6 !important)
+wikipedia.org##.ambox, .vector-header-container, .catlinks, .vector-toc, .sidebar, .navbox, .navbox-even, .navbox-group, .infobox-subheader, .side-box, .navbox-title:style(background-color: #202124 !important)
+wikipedia.org##.cdx-text-input__input, .cdx-button, figcaption:style(background-color: #303134 !important)
+wikipedia.org##.vector-toc::after:style(background: none !important)
+wikipedia.org##a:link:style(color:#8ab4f8 !important)
+wikipedia.org##a:visited:style(color:#c58af9 !important)
 
 bloomberg.com##+js(cookie-remover, gatehouse_id, stay)
 bloomberg.com##+js(aopr, localStorage)
 bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)
+
+instagram.com##._aagw
 
 forecast.weather.gov##header, nav, footer, #fcst-search, #point-forecast-map-label, #news-items, #quickLinks, #additional_forecasts, #additionalForecast:style(display: none !important)
 forecast.weather.gov##body:style(background-color: #000 !important; color: #ddd !important)
